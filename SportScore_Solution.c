@@ -63,7 +63,7 @@ void main()
 	{
 			if(groups[i] + 1 != groups[i+1])
 			{
-				if(counter < 2)
+				if(counter < 2 || i+1 == studentsNumber -1)
 				{
 					output = 0;
 					break;
